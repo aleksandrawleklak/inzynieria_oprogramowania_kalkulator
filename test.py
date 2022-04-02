@@ -2,5 +2,11 @@
 def hello(name):
 	return "Hello" + str(name)
 
+def dodaj(a,b):
+	wynik=float(a)+float(b)
+	return wynik
 
-print("Hello world")
+pierwsza = input()
+druga = input()
+
+print (dodaj(pierwsza, druga))
